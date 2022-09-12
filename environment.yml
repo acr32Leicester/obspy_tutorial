@@ -11,12 +11,16 @@ dependencies:
   - backcall=0.2.0=pyh9f0ad1d_0
   - backports=1.0=py_2
   - backports.functools_lru_cache=1.6.4=pyhd8ed1ab_0
+  - basemap-data=1.3.2=pyhd8ed1ab_1
+  - basemap-data-hires=1.3.2=pyhd8ed1ab_1
   - beautifulsoup4=4.11.1=pyha770c72_0
   - bleach=5.0.1=pyhd8ed1ab_0
   - brotli=1.0.9=h166bdaf_7
   - brotli-bin=1.0.9=h166bdaf_7
   - bzip2=1.0.8=h7f98852_4
-  - ca-certificates=2022.6.15=ha878542_0
+  - c-ares=1.18.1=h7f98852_0
+  - ca-certificates=2022.6.15.1=ha878542_0
+  - certifi=2022.6.15.1=pyhd8ed1ab_0
   - charset-normalizer=2.1.0=pyhd8ed1ab_0
   - cycler=0.11.0=pyhd8ed1ab_0
   - decorator=5.1.1=pyhd8ed1ab_0
@@ -25,6 +29,7 @@ dependencies:
   - executing=0.10.0=pyhd8ed1ab_0
   - flit-core=3.7.1=pyhd8ed1ab_0
   - freetype=2.10.4=hca18f0e_2
+  - geos=3.11.0=h27087fc_0
   - icu=70.1=h27087fc_0
   - idna=3.3=pyhd8ed1ab_0
   - importlib_resources=5.9.0=pyhd8ed1ab_0
@@ -37,6 +42,8 @@ dependencies:
   - jupyter_client=7.3.4=pyhd8ed1ab_0
   - jupyter_core=4.11.1=py310hff52083_0
   - jupyterlab_pygments=0.2.2=pyhd8ed1ab_0
+  - keyutils=1.6.1=h166bdaf_0
+  - krb5=1.19.3=h3790be6_0
   - lcms2=2.12=hddcbb42_0
   - ld_impl_linux-64=2.36.1=hea4e1c9_2
   - lerc=4.0.0=h27087fc_0
@@ -45,7 +52,10 @@ dependencies:
   - libbrotlidec=1.0.9=h166bdaf_7
   - libbrotlienc=1.0.9=h166bdaf_7
   - libcblas=3.9.0=16_linux64_openblas
+  - libcurl=7.83.1=h7bff187_0
   - libdeflate=1.13=h166bdaf_0
+  - libedit=3.1.20191231=he28a2e2_2
+  - libev=4.33=h516909a_1
   - libffi=3.4.2=h7f98852_5
   - libgcc-ng=12.1.0=h8d9b700_16
   - libgfortran-ng=12.1.0=h69a702a_16
@@ -53,11 +63,13 @@ dependencies:
   - libgomp=12.1.0=h8d9b700_16
   - libiconv=1.16=h516909a_0
   - liblapack=3.9.0=16_linux64_openblas
+  - libnghttp2=1.47.0=hdcd2b5c_1
   - libnsl=2.0.0=h7f98852_0
   - libopenblas=0.3.21=pthreads_h78a6416_0
   - libpng=1.6.37=h753d276_4
   - libsodium=1.0.18=h36c2ea0_1
   - libsqlite=3.39.2=h753d276_1
+  - libssh2=1.10.0=haa6b8db_3
   - libstdcxx-ng=12.1.0=ha89aaad_16
   - libtiff=4.4.0=h0e0dad5_3
   - libuuid=2.32.1=h7f98852_1000
@@ -88,6 +100,7 @@ dependencies:
   - pickleshare=0.7.5=py_1003
   - pip=22.2.2=pyhd8ed1ab_0
   - pkgutil-resolve-name=1.3.10=pyhd8ed1ab_0
+  - proj=9.0.1=h93bde94_1
   - prometheus_client=0.14.1=pyhd8ed1ab_0
   - prompt-toolkit=3.0.30=pyha770c72_0
   - pthread-stubs=0.4=h36c2ea0_1001
@@ -97,6 +110,7 @@ dependencies:
   - pygments=2.12.0=pyhd8ed1ab_0
   - pyopenssl=22.0.0=pyhd8ed1ab_0
   - pyparsing=3.0.9=pyhd8ed1ab_0
+  - pyshp=2.1.3=pyhd3eb1b0_0
   - python=3.10.5=h582c2e5_0_cpython
   - python-dateutil=2.8.2=pyhd8ed1ab_0
   - python-fastjsonschema=2.16.1=pyhd8ed1ab_0
@@ -104,7 +118,7 @@ dependencies:
   - readline=8.1.2=h0f457ee_0
   - requests=2.28.1=pyhd8ed1ab_0
   - send2trash=1.8.0=pyhd8ed1ab_0
-  - six=1.16.0=pyh6c4a22f_0
+  - six=1.15.0=pyh9f0ad1d_0
   - soupsieve=2.3.2.post1=pyhd8ed1ab_0
   - sqlite=3.39.2=h4ff8645_1
   - stack_data=0.4.0=pyhd8ed1ab_0
@@ -124,8 +138,8 @@ dependencies:
   - zstd=1.5.2=h8a70e8d_4
   - pip:
     - argon2-cffi-bindings==21.2.0
+    - basemap==1.3.4
     - brotlipy==0.7.0
-    - certifi==2022.6.15
     - cffi==1.15.1
     - cryptography==37.0.4
     - debugpy==1.6.0
@@ -143,6 +157,7 @@ dependencies:
     - obspy==1.3.0
     - pillow==9.2.0
     - psutil==5.9.1
+    - pyproj==3.3.1
     - pyrsistent==0.18.1
     - pysocks==1.7.1
     - pyzmq==23.2.1
