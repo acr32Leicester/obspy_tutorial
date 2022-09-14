@@ -12,7 +12,6 @@ dependencies:
   - backports=1.0=py_2
   - backports.functools_lru_cache=1.6.4=pyhd8ed1ab_0
   - basemap-data=1.3.2=pyhd8ed1ab_1
-  - basemap-data-hires=1.3.2=pyhd8ed1ab_1
   - beautifulsoup4=4.11.1=pyha770c72_0
   - bleach=5.0.1=pyhd8ed1ab_0
   - brotli=1.0.9=h166bdaf_7
